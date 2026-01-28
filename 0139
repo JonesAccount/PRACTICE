@@ -1,0 +1,17 @@
+list = [
+"пусто",
+"пусто",
+"пусто"
+]
+
+print("Заполните список:\n", list, "\n", sep="")
+
+p1 = input()
+p2 = input()
+p3 = input()
+
+list[0] = p1
+list[1] = p2
+list[2] = p3
+
+print("Заполненный список:\n", list, sep="")
