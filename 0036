@@ -1,0 +1,9 @@
+import pygame
+pygame.init()
+
+RED = (255, 0, 0)
+
+screen = pygame.display.set_mode((500, 300))
+
+screen.fill(RED)
+pygame.display.flip()
