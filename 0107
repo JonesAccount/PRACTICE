@@ -1,0 +1,10 @@
+v = True
+ 
+if v != False:
+    print("option 1")
+
+if v == True:
+    print("option 2")
+
+if v:
+    print("option 3")
