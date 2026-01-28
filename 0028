@@ -1,0 +1,15 @@
+# Использовать эти функции: min, max, abs, pow, round
+print("-непонятный програмный код-", end="\n\n")
+
+num1 = abs(int(input("Введи 1 число: ")))
+pow_num = num1 // 2
+num2 = abs(pow(int(input("Введи 2 число: ")), pow_num))
+num3 = abs(pow(int(input("Введи 3 число: ")), pow_num))
+num4 = abs(pow(int(input("Введи 4 число: ")), pow_num))
+num5 = abs(pow(int(input("Введи 5 число: ")), pow_num))
+num1 = pow(num1, pow_num)
+summa = num1 + num2 + num3 + num4 + num5
+
+print("\nМинимальное число:", min(num1, num2, num3, num4, num5))
+print("Максимальное число:", max(num1, num2, num3, num4, num5))
+print("Сумма всех чисел:", round(summa / pow_num))
