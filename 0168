@@ -1,0 +1,7 @@
+list = [4, 47, 16, 5, [7, 18], [True, False, None]]
+
+print(list[1])
+print(list[4])
+print(list[5])
+
+# Список внутри списка считается одним элементом.
