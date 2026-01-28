@@ -1,0 +1,12 @@
+a = [46, True, 100]
+b = [7.5, 3, 1000]
+c = [300, 16.3, False]
+d = [50, 400, 40.10]
+
+a.extend(b)
+c.extend(d)
+a.extend(c)
+
+print(a, "\n")
+a.sort()
+print(a)
