@@ -1,0 +1,5 @@
+a = 5
+b = str(a)
+a = int(a)
+
+print(a + 1)
