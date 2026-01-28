@@ -1,0 +1,19 @@
+list = [
+" dreams",
+" can",
+" one",
+" rules",
+" do",
+" soon",
+" everything",
+" life",
+" real",
+" strong",
+" picasso"
+]
+
+print(list, "\n")
+
+print("Quote: " + list[6] + " you" + list[1] + " imagine" + " is" + list[8] + ".", sep="")
+
+print("\n                          ~pablo" + list[10])
