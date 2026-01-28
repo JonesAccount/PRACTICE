@@ -1,0 +1,22 @@
+word1 = "code"
+word2 = "temperature"
+word3 = "tiktok"
+word4 = "sololearn"
+
+for i in word1:
+    if i == "c":
+        letter1 = i
+        
+for i in word2:
+    if i == "a":
+        letter2 = i
+        
+for i in word3:
+    if i == "k":
+        letter3 = i
+        
+for i in word4:
+    if i == "e":
+        letter4 = i
+        
+print(letter1 + letter2 + letter3 + letter4)
