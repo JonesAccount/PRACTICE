@@ -1,0 +1,14 @@
+word = "ananas"
+print(word[1:5])
+
+word = "sololearn"
+print(word[4:9])
+
+word = "grandfather"
+print(word[2:5])
+
+word = "playground"
+print(word[0:4])
+
+word = "grandmother"
+print(word[5:11])
