@@ -1,0 +1,6 @@
+word = int(input())
+
+while True:
+    print("slovo")
+    if word < 5:
+        continue
