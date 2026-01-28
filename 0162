@@ -1,0 +1,3 @@
+word = "sololearn"
+for i in word:
+    print(i * 10)
