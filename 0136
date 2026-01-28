@@ -1,0 +1,8 @@
+print("Собери свой список игр:\n")
+g1 = input()
+g2 = input()
+g3 = input()
+
+game_list = [g1, g2, g3]
+
+print("Твой список:\n", game_list, sep="")
