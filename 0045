@@ -1,4 +1,0 @@
-list = ["Kazakhstan", "USA", "India", "Salvador", "India"]
-
-print(list.count("India"))
-print(list.count("Kazakhstan"))
