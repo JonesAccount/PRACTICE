@@ -1,0 +1,4 @@
+temp = 31
+house = temp > 30
+
+print(house)
