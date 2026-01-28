@@ -1,0 +1,7 @@
+print("Введите число между 20 и 30...\n")
+num = int(input())
+
+if num > 19 and num < 31:
+    print("Ввод: " + str(num) + "\nВерно!")
+else:
+    print("Неверно")
