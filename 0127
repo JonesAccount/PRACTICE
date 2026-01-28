@@ -1,0 +1,10 @@
+v = 5 != 6
+o = False
+
+while v:
+    print(o)
+    if input() == "ok":
+        o = True
+        v = False
+        
+print(o)
