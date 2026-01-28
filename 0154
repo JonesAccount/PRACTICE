@@ -1,0 +1,6 @@
+a = ["кря"]
+
+while True:
+    print(a)
+    a.insert(0, "кря")
+    
