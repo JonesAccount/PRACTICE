@@ -1,0 +1,22 @@
+list = ["Lada", "Audi", "Chery"]
+print(list, "\n")
+
+list[0] = "Apple"
+list[1] = "Banana"
+list[2] = "Coconut"
+print(list, "\n")
+
+list[0] = "Earth"
+list[1] = "Jupiter"
+list[2] = "Mars"
+print(list, "\n")
+
+list[0] = "Samsung"
+list[1] = "Xiomi"
+list[2] = "Huawei"
+print(list, "\n")
+
+list[0] = "USA"
+list[1] = "Russia"
+list[2] = "Kazakhstan"
+print(list)
