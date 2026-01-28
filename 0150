@@ -1,0 +1,4 @@
+list = [100, 100, 200, 100]
+list.insert(1, "ИНСЕРТ")
+
+print(list)
