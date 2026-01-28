@@ -1,0 +1,41 @@
+print("Составьте свой список дел:")
+
+p1 = input()
+p2 = input()
+p3 = input()
+
+list = [p1, p2, p3]
+
+print("\nСписок создан!")
+choose = input("\nПросмотр списка\nВыберите: 1, 2, 3\n")
+
+if choose == "1":
+    print("\nПервый пункт:", list[0])
+elif choose == "2":
+    print("\nВторой пункт:", list[1])
+elif choose == "3":
+    print("\nТретьи пункт:", list[2])
+else:
+   print("\nНекорректный поиск")
+   
+choose = input("\nПросмотр списка\nВыберите: 1, 2, 3\n")
+    
+if choose == "1":
+    print("\nПервый пункт:", list[0])
+elif choose == "2":
+    print("\nВторой пункт:", list[1])
+elif choose == "3":
+        print("\nТретьи пункт:", list[2])
+else:
+        print("\nНекорректный поиск")
+    
+choose = input("\nПросмотр списка\nВыберите: 1, 2, 3\n")
+
+if choose == "1":
+        print("\nПервый пункт:", list[0])
+elif choose == "2":
+        print("\nВторой пункт:", list[1])
+elif choose == "3":
+        print("\nТретьи пункт:", list[2])
+else:
+        print("\nНекорректный поиск")
