@@ -1,5 +1,5 @@
-var = 0
-input("После того как нажмешь enter, вылозит ошибка, потому что переменная удалится\nПеременная: True")
-del var
-var = 0
-print(var)
+o = True
+s = False
+
+print(o)
+print(s)
