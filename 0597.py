@@ -1,0 +1,1 @@
+print((lambda word: word.upper())("unicom"))
