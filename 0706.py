@@ -1,0 +1,4 @@
+try:
+    with open("text.txt", "r", encoding="utf-8") as f:
+except FileNotFoundError:
+    print("Файл не существует")
